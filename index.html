@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Html, css , bootstrap, javascript" />
+  <meta name="description" content="Education center" />
+  <meta name="author" content="Nabijon Ibodullaev" />
+  <title>Sinauw</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+  <!-- !------------------------------NAVBAR--------------------------------------- -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#">
+        <img src="assets/brand.svg" class="img-fluid" alt="nav brand" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="main-nav navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link">Webinar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <div class="btn-group">
+              <button class="btn lang">
+                <i class="fa-solid fa-globe text-white"></i>
+              </button>
+              <select class="form-select fw-bold" aria-label="Default select example">
+                <option class="fw-bold" value="1" selected>eng</option>
+                <option class="fw-bold" value="2">uz</option>
+                <option class="fw-bold" value="2">ru</option>
+              </select>
+            </div>
+          </li>
+          &nbsp; &nbsp;
+          <li class="nav-item">
+            <button class="btn btn-danger px-4 btn-sm py-2 fw-bold">
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- !---------------------------HOME--------------------------------- -->
+
+  <div id="home" class="container-fluid home py-3 pb-3">
+    <div class="row">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000"
+     data-aos-anchor-placement="top-bottom" >
+        <img src="assets/girl.svg" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-6 home-left d-flex align-items-center px-md-5" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+        <div>
+          <h1 class="text-white fw-bold">
+            Grow Your Skills
+            <br />
+            To Advance Your
+            <br />
+            Career Path.
+          </h1>
+          <div class="input-group pt-5">
+            <div class="btn-group"></div>
+            <input type="search" id="form1" class="form-control search text-white"
+              placeholder="What do you want to learn..." />
+
+            <button type="button" class="btn search-btn px-4">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <h6 class="pt-4 pb-3">Suggestions</h6>
+          <button class="btn btn-outline-danger btn-sm m-1 px-3">
+            UI UX Design
+          </button>
+          <button class="btn btn-outline-danger btn-sm m-1 px-3">
+            CSS Fundamental
+          </button>
+          <button class="btn btn-outline-danger btn-sm m-1 px-3">
+            3D Design Illustration
+          </button>
+          <button class="btn btn-outline-danger btn-sm m-1 px-3">
+            Website Development
+          </button>
+          <button class="btn btn-outline-danger btn-sm m-1 px-3">
+            Logo Design
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--********--------------------------------!SERVICES----------------------------------------- -->
+    <div class="container px-4 py-5" id="service">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1200">
+          <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="assets/3.svg" class="img-fluid" alt="" />
+          </div>
+          <div>
+            <h2>Get New Friends</h2>
+            <p class="pt-2">
+              You will meet new friends in some of classes that you take. Say
+              hello to them and make friends, it will be so much warm
+              friendship!
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1200">
+          <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="assets/2.svg" class="img-fluid" alt="" />
+          </div>
+          <div>
+            <h2>Expert and Fun Mentor</h2>
+            <p class="pt-2">
+              Learn with earnest and don’t forget to get relax too. Learn and
+              enjoy the materials or classes with our expert mentors.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1200">
+          <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="assets/1.svg" class="img-fluid" alt="" />
+          </div>
+          <div>
+            <h2>Flexible Access</h2>
+            <p class="pt-2">
+              You can access materials or classes easily by our website also
+              mobile. Access it everywhere and everytime, no limit for you to
+              learn!
+            </p>
+          </div>
+
+          p>
+        </div>
+      </div>
+    </div>
+
+    <!--************************************************* !CARD -***************************************-->
+
+    <div id="courses" class="container py-5">
+      <h1 class="text-center text-white fw-bold">
+        What Do You Want to Learn?
+      </h1>
+      <p class="color-p text-center">
+        Choose the right class as you need. Then enjoy studying.
+      </p>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 py-5">
+        <div class="col" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm">
+            <div class="card-img h-100 w-100 d-flex align-items-center justify-content-center">
+              <img src="assets/courses/1.svg" class="img-fluid" alt="Marketing" />
+              <span class="image-video text-center text-white d-flex align-items-center justify-content-center">
+                12 Videos
+              </span>
+            </div>
+            <div class="card-body">
+              <strong>Technology</strong>
+              <h6 class="text-white fw-bold pt-2">
+                Digital Marketing Strategy
+              </h6>
+              <p class="card-text py-3">
+                This course aims to give you deeper understanding of core
+                processes ...
+              </p>
+              <hr class="w-100" />
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="assets/card/1.svg" class="img-fluid" alt="..." />
+                </div>
+                <div class="flex-grow-1 ms-3 text-white">
+                  Joey Piere
+                  <br />
+                  <small class="color-p">Mentor</small>
+                </div>
+              </div>
+              <div class="access text-center pt-4 d-none">
+                <button class="btn btn-danger px-4">Access Class</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm">
+            <div class="card-img h-100 w-100 d-flex align-items-center justify-content-center">
+              <img src="assets/courses/2.svg" class="img-fluid" alt="Marketing" />
+              <span class="image-video text-center text-white d-flex align-items-center justify-content-center">
+                7 Videos
+              </span>
+            </div>
+
+            <div class="card-body">
+              <strong>Design</strong>
+              <h6 class="text-white fw-bold pt-2">Figma Fundamental</h6>
+              <p class="card-text py-3">
+                These lessons and exercises will help you start designing with
+                Figma ...
+              </p>
+              <hr class="w-100" />
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="assets/card/2.svg" class="img-fluid" alt="..." />
+                </div>
+                <div class="flex-grow-1 ms-3 text-white">
+                  Araya Sheila
+                  <br />
+                  <small class="color-p">Mentor</small>
+                </div>
+              </div>
+              <div class="access text-center pt-4 d-none">
+                <button class="btn btn-danger px-4">Access Class</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm">
+            <div class="card-img h-100 w-100 d-flex align-items-center justify-content-center">
+              <img src="assets/courses/3.svg" class="img-fluid" alt="Marketing" />
+              <span class="image-video text-center text-white d-flex align-items-center justify-content-center">
+                10 Videos
+              </span>
+            </div>
+            <div class="card-body">
+              <strong>coding</strong>
+              <h6 class="text-white fw-bold pt-2">HTML Fundamental</h6>
+              <p class="card-text py-3">
+                Well organized and easy to make you understand tutorials with
+                lots of ...
+              </p>
+              <hr class="w-100" />
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="assets/card/3.svg" class="img-fluid" alt="..." />
+                </div>
+                <div class="flex-grow-1 ms-3 text-white">
+                  Ellisa Ruth
+                  <br />
+                  <small class="color-p">Mentor</small>
+                </div>
+              </div>
+              <div class="access text-center pt-4 d-none">
+                <button class="btn btn-danger px-4">Access Class</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm">
+            <div class="card-img d-flex align-items-center justify-content-center">
+              <img src="assets/courses/4.svg" class="img-fluid" alt="Marketing" />
+              <span class="image-video text-center text-white d-flex align-items-center justify-content-center">
+                16 Videos
+              </span>
+            </div>
+            <div class="card-body">
+              <strong>Coding</strong>
+              <h6 class="text-white fw-bold pt-2">Android App Development</h6>
+              <p class="card-text py-3">
+                Take your Android coding skills to the next level, advanced
+                Android app ...
+              </p>
+              <hr class="w-100" />
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="assets/card/4.svg" class="img-fluid" alt="..." />
+                </div>
+                <div class="flex-grow-1 ms-3 text-white">
+                  Wendy Troye
+                  <br />
+                  <small class="color-p">Mentor</small>
+                </div>
+              </div>
+              <div class="access text-center pt-4 d-none">
+                <button class="btn btn-danger px-4">Access Class</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center py-4">
+        <button class="btn btn-outline-danger px-5 py-2">All courses</button>
+      </div>
+    </div>
+
+    <!--********************* !---------------------pricing----------*----------------------- -->
+    <div id="pricing" class="container pricing-root">
+      <h1 class="text-center text-white fw-bold">
+        Course Pricing
+      </h1>
+      <p class="color-p text-center">
+        Choose pricing that suits to your need.
+      </p>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 g-3 py-5">
+        <div class="col d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm py-5">
+            <div class="d-flex px-5 price">
+              <div class="flex-shrink-1">
+                <img src="assets/pricing/1.svg" class="img-fluid" alt="..." />
+              </div>
+              <div class="flex-grow-1 ms-3" style="line-height: 40px;">
+                <h4 class="fw-bold">Free</h4>
+                <p class="text-white">
+                  <img src="assets/pricing/o.svg" style="width: 30px !important;" alt="" />
+                  / month
+                </p>
+              </div>
+            </div>
+
+            <br />
+            <hr style="
+                  width: 80%;
+                  margin: 0 auto;
+                  color: #fff !important;
+                  height: 2px;
+                " />
+            <ul class="py-3">
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free e-book for every class
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Materials update every day
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free download material videos
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Unlock 5 material videos
+              </li>
+              <li class="opacity-0 d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; ************
+              </li>
+              <li class="opacity-0 d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; ************
+              </li>
+              <li class="opacity-0 d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; ************
+              </li>
+            </ul>
+            <div class="text-center px-4 opacity-75">
+              <button class="btn btn-outline-danger w-100 py-2 fw-bold">
+                Your Current Package
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm py-5">
+            <div class="d-flex px-5 price">
+              <div class="flex-shrink-1">
+                <img src="assets/pricing/2.svg" class="img-fluid" alt="..." />
+              </div>
+              <div class="flex-grow-1 ms-3" style="line-height: 40px;">
+                <h4 class="fw-bold">Express</h4>
+                <p class="text-white">
+                  <img src="assets/pricing/75.svg" style="width: 50px !important;" alt="" />
+                  / month
+                </p>
+              </div>
+            </div>
+
+            <br />
+            <hr style="
+                  width: 80%;
+                  margin: 0 auto;
+                  color: #fff !important;
+                  height: 2px;
+                " />
+            <ul class="py-3">
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free e-book for every class
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Materials update every day
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free download material videos
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Meeting 2 times a week
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Unlock 15 material videos
+              </li>
+              <li class="opacity-0 d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; *******
+              </li>
+              <li class="opacity-0 d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; ************
+              </li>
+            </ul>
+            <div class="text-center px-4">
+              <button class="btn btn-outline-danger w-100 py-2 fw-bold">
+                Buy Express
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-stretch" data-aos="fade-up" data-aos-duration="1200">
+          <div class="card shadow-sm py-5">
+            <div class="d-flex px-5 price">
+              <div class="flex-shrink-1">
+                <img src="assets/pricing/3.svg" class="img-fluid" alt="..." />
+              </div>
+              <div class="flex-grow-1 ms-3" style="line-height: 40px;">
+                <h4 class="fw-bold">Premium</h4>
+                <p class="text-white">
+                  <img src="assets/pricing/100.svg" style="width: 60px !important;" alt="" />
+                  / month
+                </p>
+              </div>
+            </div>
+
+            <br />
+            <hr style="
+                  width: 80%;
+                  margin: 0 auto;
+                  color: #fff !important;
+                  height: 2px;
+                " />
+            <ul class="py-3">
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free e-book for every class
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Materials update every day
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Free download material videos
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Private chat with mentor
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Meeting 3 times a week
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Unlock up to 30 material videos
+              </li>
+              <li class="d-flex list-unstyled align-items-center justify-content-start py-1">
+                <img src="assets/pricing/dot.svg" style="width: 15px;" alt="" />
+                &nbsp; Unlimited saved class
+              </li>
+            </ul>
+            <div class="text-center px-4">
+              <button class="btn btn-danger w-100 py-2 fw-bold">
+                Buy Premium
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="col-12" data-aos="fade-up" data-aos-duration="1200">
+        <img src="assets/mobile-app.svg" class="img-fluid mobile-md" alt="" />
+        <img src="assets/mobile-sm.svg" class="img-fluid mobile-sm" alt="" />
+      </div>
+    </div>
+
+    <!--******************* ***************************! FOOTER -*****************************************-->
+
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-1 row-cols-lg-5 g-3 py-5 my-5 border-top">
+        <div class="col">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <img src="assets/brand.svg" class="img-fluid" alt="">
+          </a>
+          <p class="text-muted">Any feedback or questions? Contact us on our social media</p>
+          <button class="btn "> <i class="fa-brands fa-facebook-f color-p fa-2x"></i> </button>
+          <button class="btn "> <i class="fa-brands fa-twitter color-p fa-2x"></i> </button>
+          <button class="btn "> <i class="fa-brands fa-instagram color-p fa-2x"></i> </button>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+        <div class="col">
+          <h6 class="text-white fw-bold">Menu</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col">
+          <h6 class="text-white fw-bold">Services</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Materials Update</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trusted Mentor</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Free E-book</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Meeting</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h6 class="text-white fw-bold">Further Information</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+
+          </ul>
+        </div>
+      </footer>
+      <div class="text-center color-p">
+        Copyright &copy; 2021 Sinauw. All Rights Reserved.
+      </div>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init()
+</script>
+<script>
+  $('.nav-link').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+</script>
+
+</html>
